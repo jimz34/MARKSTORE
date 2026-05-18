@@ -1,5 +1,8 @@
 {
   "rewrites": [
-    { "source": "/((?!admin|assets|favicon).*)", "destination": "/index.html" }
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ]
 }
